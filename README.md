@@ -39,5 +39,11 @@ Does the lifetime for whatever is returned by the CPP functions mange by python?
 
 See [here](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#return-value-policies) for more. They are bind to the `module::def` and `class:def`functions, as an input parameter. 
 
+All in all, don't return a pointer to a resource that is hold by something else, or potentially something else. 
+
+### Functions: Parameters (arg*, Kargs*, default param, positional params, keyboard params)
+
+
+### Functions: Types
 
 
