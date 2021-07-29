@@ -1,4 +1,4 @@
-# MyPybind11
+### MyPybind11
 This is me trying out some pybind stuff. 
 
 ### Tool Lists: 
@@ -18,6 +18,26 @@ This is me trying out some pybind stuff.
 * Pybind11 Official Tutorials
 * Cmake Tutorials
 
+### CMake
+* the output of the cmake is the SHARED library files for python. 
+
+Header: 
+```cpp
+#include <pybind11/pybind11.h>
+#include <pybind11/stl.h>
+
+
+```
+
+Python Interface: 
+	* Consult pybind11 tutorial. 
+
+
+### Functions: Resources Management: 
+
+Does the lifetime for whatever is returned by the CPP functions mange by python? or CPP? This is the concern whenever a function in CPP decided to return a reference/pointer to something. It will cause double free problem. 
+
+See [here](https://pybind11.readthedocs.io/en/stable/advanced/functions.html#return-value-policies) for more. They are bind to the `module::def` and `class:def`functions, as an input parameter. 
 
 
 
