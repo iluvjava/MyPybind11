@@ -2,6 +2,7 @@
 #include <pybind11/stl.h>
 #include <iostream>
 
+// We only focus on functions here, not other stuff yet. 
 
 namespace py = pybind11;
 
@@ -13,7 +14,7 @@ double MaxRecursive(std::vector<double>& arr, int start=0, int end=-1)
     return 0.0;
 }
 
-py::int_ add(py::int_ a, py::int_b)
+py::int_ add(py::int_ a, py::int_ b)
 {
     return a + b;
 }
