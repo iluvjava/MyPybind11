@@ -63,9 +63,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "cppbindings::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cppbindings-Debug-1294c5a927548008e739.json",
-					"name" : "cppbindings",
+					"id" : "PROJECT_NAME::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROJECT_NAME-Debug-1d5f1ee44abe0d369c7a.json",
+					"name" : "PROJECT_NAME",
 					"projectIndex" : 0
 				}
 			]
