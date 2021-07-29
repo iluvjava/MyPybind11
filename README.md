@@ -1,6 +1,12 @@
 ### MyPybind11
 This is me trying out some pybind stuff. 
 
+Why? 
+
+Pybind has supports for CPP, numpy via eigen library under CPP, and python. 
+
+This improved the level of optimization for the speed on the programming parts, if we know what we are doing. 
+
 ### Tool Lists: 
 * Linux Machine
 	* cmake, clang, gcc
@@ -21,7 +27,7 @@ This is me trying out some pybind stuff.
 ### CMake
 * the output of the cmake is the SHARED library files for python. 
 
-Header: 
+Header:
 ```cpp
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
@@ -43,7 +49,10 @@ All in all, don't return a pointer to a resource that is hold by something else,
 
 ### Functions: Parameters (arg*, Kargs*, default param, positional params, keyboard params)
 
+Python default arguments tutorial [here](https://pybind11.readthedocs.io/en/stable/basics.html#default-args). 
 
-### Functions: Types
+### Functions: (Types, Dealing with Python Types in CPP).
+
+
 
 
