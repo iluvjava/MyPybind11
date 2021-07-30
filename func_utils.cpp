@@ -10,6 +10,9 @@ namespace py = pybind11;
 /**
  * Testing on primitive types and c++ vector type, with default parameters 
  * defined via python interface part. 
+ * 
+ * Question: std::vector<double> is a naitive type for CPP, how is it related to
+ * python? 
  */
 double MaxRecursive(std::vector<double>& arr, int start, int end)
 {

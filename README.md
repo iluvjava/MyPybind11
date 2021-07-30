@@ -37,6 +37,7 @@ Header:
 
 Python Interface: 
 	* Consult pybind11 tutorial. 
+	* CPP compiles a SHARED library, platforms dependent, CPP uses a thing call: MACROS to do that. 
 
 
 ### Functions: Resources Management: 
@@ -53,6 +54,7 @@ Python default arguments tutorial [here](https://pybind11.readthedocs.io/en/stab
 
 ### Functions: (Types, Dealing with Python Types in CPP).
 
+The theme here is that, python should be able to view CPP types, and C++ should have some views on Python types, each is viewing the other's native types in their own environment, and pybind present these types to both languages. 
 
 
 
